@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+  <title>Title</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="header-wrapp">
+       <h3 style="padding-left: 30px;"> Duhanhbonphuong</h3>
+       <div class="category">
+            <input type="text" placeholder="Search for products">
+            <select>
+                <option value="">Hotel</option>
+                <option value="">Homestay</option>
+                <option value="">Festival</option>
+                <option value="">Travel</option>
+                <option value="">Curture</option>
+            </select>
+            <span><ion-icon name="search-outline"></ion-icon></span>
+       </div>
+       <h4>Login/Register</h4>
+       <div class="buy">
+            <ion-icon name="bag-outline"></ion-icon>
+            <span style="padding-right: 30px;">0.00$</span>
+       </div>
+       <ion-icon class="menu-icon" name="menu-outline"></ion-icon>
+       <div class="navbar-after">
+           <a href="#" >Home</a> 
+           <a href="travel.html">Travel</a>
+           <a href="index.html">Blogs</a>
+           <a href="#">About</a>
+           <a href="#" class="header-login-btn">Login</a>
+       </div>
+    </div>    
+</header>
+
+  <!-- CAROUSEL -->
+  <div class="d-flex justify-content-center align-items-center">
+    <div id="carouselExample" class="carousel slide w-75">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-flex justify-content-center align-items-center">
+            <img src="./image/slide1.jpg" class="d-block w-50" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center align-items-center">
+            <img src="./image/slide2.jpg" class="d-block w-50" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center align-items-center">
+            <img src="./image/slide3.jpg" class="d-block w-50" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center align-items-center">
+            <img src="./image/slide4.jpg" class="d-block w-50" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center align-items-center">
+            <img src="./image/slide5.jpg" class="d-block w-50" alt="...">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev w-25" href="#carouselExample" role="button" data-bs-slide="prev">
+        <img src="./image/slide5.jpg" alt=" Previous" class="w-100 h-100">
+      </button>
+      <button class="carousel-control-next w-25" href="#carouselExample" role="button" data-bs-slide="next">
+        <img src="./image/slide2.jpg" alt="Next" class="w-100 h-100">
+      </button>
+    </div>
+  </div>
+  <div class="decription text-center d-flex justify-content-center align-items-center">
+    <div class="w-50">
+      <div>
+        <h2>Ruby Rose Resort</h2>
+      </div>
+      <div class="price">
+        <p class="text-warning">$279.00</p>
+      </div>
+      <div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed dicta, eaque nam quibusdam fuga sint iure
+          distinctio est alias vel necessitatibus odio amet non. Voluptate facere possimus qui? Magnam maxime quae
+          accusantium. Facilis aliquid nihil ex eaque explicabo harum corporis, inventore repellat provident maxime aut
+          molestias. Beatae distinctio repellat sapiente.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+    <footer style=" margin: 100px 0 100px 0;">
+      <div class="footer">
+          <div class="footer-box" >
+              <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black; font-size: 25px;">Lit.</p>
+              <p>  We are always there when you need us</p>
+              <p><ion-icon name="send-outline"></ion-icon> 451 Wall Street, UK, London</p>
+              <p><ion-icon name="phone-portrait-outline"></ion-icon> Phone: (064) 332-1233</p>
+              <p><ion-icon name="mail-outline"></ion-icon> Fax: (099) 453-1357</p>
+          </div>
+      
+          <div class="footer-box">
+              <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;">RECENT POST</p>
+              <div style="display: flex; gap: 20px; padding: 20px; border-bottom: 1px solid gray ;">
+                  <img style="height: 80px; width: 80px; object-fit: cover; border-radius: 5px; " src="image/slide1.jpg" alt="">
+                  <div>
+                      <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;">A companion for extra sleeping</p>
+                      <p>July 23, 2016 <span style="margin-left: 10px;">1 comment</span></p>
+                  </div>
+              </div>
+      
+              <div style="display: flex; gap: 20px; padding: 20px;">
+                  <img style="height: 80px; width: 80px; object-fit: cover; border-radius: 5px; " src="image/slide3.jpg" alt="">
+                  <div>
+                      <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;">Outdoor seating collection inspiration</p>
+                      <p>July 23, 2016 <span style="margin-left: 10px;">4 comment</span></p>
+                  </div>
+              </div>
+          </div>
+      
+          <div class="footer-box">
+              <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;">OUR STORES</p>
+              <p>Las Vegas</p>
+              <p>Chicago</p>
+              <p>Los Angeles</p>
+              <p>Edinburgh</p>
+              <p>London SF</p>
+              <p>New York</p>
+          </div>
+      
+          <div class="footer-box">
+              <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;">USEFUL LINKS</p>
+              <p>Our Sitemap</p>
+              <p>Latest News</p>
+              <p>Contact Us</p>
+              <p>Terms & Conditions</p>
+              <p>Returns</p>
+              <p>Privacy Policy</p>
+          </div>
+      
+          <div class="footer-box">
+              <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;">FOOTER MENU</p>
+              <p>Latest News</p>
+              <p>Contact Us</p>
+              <p>Woman Dress</p>
+              <p>New Collection</p>
+              <p>Instagram profile</p>
+              <p>Privacy Policy</p>
+          </div>
+      </div>
+  </footer>
+  
+  <script src="./main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script></script>
+</body>
+
+</html>
